@@ -35,10 +35,14 @@
   text-shadow: 0.012rem 0.012rem #000000;
   color: #ffffff;
   border: none;
-
   font-size: 19px;
   text-transform: capitalize;
   letter-spacing: 0.1rem;
+}
+
+.header-button a{
+  text-decoration: none;
+  color: inherit;
 }
 
 

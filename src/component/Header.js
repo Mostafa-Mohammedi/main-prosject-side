@@ -10,7 +10,7 @@ const Header = (props) => {
             <div className="content-page-header">
             <h1 className="header-header-tag">{props.header}</h1>
             <h2 className="h2-tagg" >{props.h2}</h2>
-            <button className="header-button">{props.button}</button>
+            <button className="header-button"><a target ="_blank" href="https://github.com/mohmos94?tab=repositories">{props.button}</a></button>
             </div>
         </Card>
     );

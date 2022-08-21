@@ -44,3 +44,12 @@ img {
   text-transform: uppercase;
 
 }
+
+.main-button:hover{
+  box-shadow: 0 5px  #09aeae9f;
+}
+
+.main-button:active {
+  box-shadow: 0 5px  #666;
+  transform: translateY(4px);
+}
