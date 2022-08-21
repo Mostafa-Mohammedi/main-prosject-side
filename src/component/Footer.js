@@ -36,7 +36,7 @@ const Footer = () => {
       <Card style="card-content-footer">
         <hr />
         <CardItem styling="footer-carditem-document">
-          <a target="_blank" href="https://mohmos94.github.io/website/">
+          <a target="_blank" href="https://mohmos94.github.io/website-master/">
             <p>
               <AiOutlineAudit />
             </p>
