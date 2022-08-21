@@ -33,7 +33,7 @@ const Main = (props) => {
             <p>{props.iconHtml}</p>
           </div>
           <p>{props.contentHtml}</p> 
-          <button className="main-button"><a href="https://mohmos94.github.io/website/" target={"_blank"}>click her</a> </button>
+          <button className="main-button"><a href="https://mohmos94.github.io/website-master/" target={"_blank"}>click her</a> </button>
         </CardItem>
       </div>
     </Card>
