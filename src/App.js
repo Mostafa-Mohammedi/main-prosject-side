@@ -1,23 +1,42 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './component/Header';
+import Main from './component/Main';
+import react from "./img/react.png";
+import html from "./img/html.png";
+import { FaReact } from 'react-icons/fa';
+import { AiFillHtml5 } from 'react-icons/ai';
+import Footer from './component/Footer';
+
+
+
+
 
 function App() {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header 
+      header="Main Project site"
+      h2="mostafa mohammedi"
+      button="watch github"
+      />
+      <Main 
+      img={react}
+      alt="react img" 
+      icon={ <FaReact/>} 
+      icon_content= "react frontend"
+      content= "Frontend react project for adding expenses"
+      
+      imgHtml={html}
+      altHtml="html and css website"
+      icontentHtml={<AiFillHtml5/>}
+      iconHtml = "HTML site"
+      contentHtml = "CV page created on HTML, CSS and JS"
+
+
+
+      />
+      <Footer/>
     </div>
   );
 }
