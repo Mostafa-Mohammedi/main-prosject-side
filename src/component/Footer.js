@@ -41,7 +41,7 @@ const Footer = () => {
               <AiOutlineAudit />
             </p>
           </a>
-          <a target="_blank" href="https://mohmos94.github.io/website/">
+          <a target="_blank" href="http://mohmos94.github.io/project-site">
             <p>
               <AiFillHome />
             </p>
