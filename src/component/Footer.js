@@ -19,8 +19,7 @@ const Footer = () => {
         <CardItem styling="footer-general">
           <h2>website</h2>
           <p>
-            This is the project website for outputing my
-            <span>hostet website</span>
+            This is my project website
           </p>
           <p>Mostafa Mohammedi  &#169; 2022</p>
         </CardItem>
